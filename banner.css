@@ -1,0 +1,11 @@
+/* ─── MIT SONPAR - GitHub Profile Banner CSS ─── */
+
+.banner-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.banner {
+    background: linear-gradient(145deg, #0d1117 0%, #161b22 50%,
