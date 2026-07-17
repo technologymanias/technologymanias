@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff" />
+      <stop offset="100%" style="stop-color:#8b949e" />
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BFFF" />
+      <stop offset="50%" style="stop-color:#7B42BC" />
+      <stop offset="100%" style="stop-color:#FF6B00" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(0,191,255,0.04)" />
+      <stop offset="100%" style="stop-color:rgba(123,66,188,0.04)" />
+    </linearGradient>
+    <clipPath id="clipCircle">
+      <circle cx="95" cy="170" r="65" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="340" fill="url(#bgGrad)" rx="20" />
+
+  <!-- Grid Overlay -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.02)" stroke-width="1" />
+  </pattern>
+  <rect width="1280" height="340" fill="url(#grid)" rx="20" />
+
+  <!-- Glow -->
+  <circle cx="400" cy="170" r="250" fill="url(#glowGrad)" />
+  <circle cx="900" cy="170" r="200" fill="rgba(123,66,188,0.03)" />
+
+  <!-- Avatar Ring -->
+  <circle cx="95" cy="170" r="68" fill="none" stroke="url(#ringGrad)" stroke-width="3" />
+  <circle cx="95" cy="170" r="65" fill="#0d1117" />
+
+  <!-- Avatar Text -->
+  <text x="95" y="178" font-family="'Fira Code', monospace" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">MS</text>
+
+  <!-- Status Dot -->
+  <circle cx="148" cy="224" r="9" fill="#2ea043" stroke="#0d1117" stroke-width="2.5" />
+
+  <!-- Name -->
+  <text x="180" y="142" font-family="'Fira Code', monospace" font-size="44" font-weight="800" fill="url(#nameGrad)" letter-spacing="3">MIT SONPAR</text>
+
+  <!-- Title -->
+  <text x="180" y="168" font-family="'Fira Code', monospace" font-size="18" font-weight="600" fill="#58a6ff">Lead Software Engineer</text>
+
+  <!-- Subtitle -->
+  <text x="180" y="190" font-family="'Fira Code', monospace" font-size="14" fill="#8b949e">
+    <tspan>Backend</tspan> <tspan fill="#c9d1d9">•</tspan>
+    <tspan>AI/LLM</tspan> <tspan fill="#c9d1d9">•</tspan>
+    <tspan>Cloud</tspan> <tspan fill="#c9d1d9">•</tspan>
+    <tspan>DevOps</tspan>
+  </text>
+
+  <!-- Stats Row -->
+  <!-- Experience -->
+  <rect x="180" y="210" width="135" height="32" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <text x="195" y="230" font-family="'Fira Code', monospace" font-size="14">⏳</text>
+  <text x="215" y="230" font-family="'Fira Code', monospace" font-size="10" fill="#8b949e">EXP</text>
+  <text x="265" y="230" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#f0f6fc">10+ Yrs</text>
+
+  <!-- AWS -->
+  <rect x="325" y="210" width="120" height="32" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <text x="340" y="230" font-family="'Fira Code', monospace" font-size="14">☁️</text>
+  <text x="358" y="230" font-family="'Fira Code', monospace" font-size="10" fill="#8b949e">AWS</text>
+  <text x="395" y="230" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#f0f6fc">Certified</text>
+
+  <!-- SDK -->
+  <rect x="455" y="210" width="115" height="32" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <text x="470" y="230" font-family="'Fira Code', monospace" font-size="14">🛠️</text>
+  <text x="490" y="230" font-family="'Fira Code', monospace" font-size="10" fill="#8b949e">SDK</text>
+  <text x="525" y="230" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#f0f6fc">Expert</text>
+
+  <!-- AI -->
+  <rect x="580" y="210" width="120" height="32" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  <text x="595" y="230" font-family="'Fira Code', monospace" font-size="14">🤖</text>
+  <text x="615" y="230" font-family="'Fira Code', monospace" font-size="10" fill="#8b949e">AI/ML</text>
+  <text x="660" y="230" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#f0f6fc">Builder</text>
+
+  <!-- Tech Stack Bar -->
+  <rect x="180" y="260" width="860" height="2" rx="1" fill="rgba(255,255,255,0.05)" />
+
+  <text x="180" y="278" font-family="'Fira Code', monospace" font-size="10" fill="#8b949e" letter-spacing="1">TECH STACK</text>
+
+  <!-- Tech Items -->
+  <rect x="280" y="266" width="60" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="292" cy="277" r="3" fill="#00BFFF" />
+  <text x="300" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">AWS</text>
+
+  <rect x="348" y="266" width="62" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="360" cy="277" r="3" fill="#d29922" />
+  <text x="368" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">Python</text>
+
+  <rect x="418" y="266" width="80" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="430" cy="277" r="3" fill="#00BFFF" />
+  <text x="438" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">TypeScript</text>
+
+  <rect x="506" y="266" width="55" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="518" cy="277" r="3" fill="#FF6B00" />
+  <text x="526" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">Rust</text>
+
+  <rect x="569" y="266" width="82" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="581" cy="277" r="3" fill="#7B42BC" />
+  <text x="589" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">Terraform</text>
+
+  <rect x="659" y="266" width="66" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="671" cy="277" r="3" fill="#00BFFF" />
+  <text x="679" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">Docker</text>
+
+  <rect x="733" y="266" width="55" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="745" cy="277" r="3" fill="#da3633" />
+  <text x="753" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">Java</text>
+
+  <rect x="796" y="266" width="45" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+  <circle cx="808" cy="277" r="3" fill="#7B42BC" />
+  <text x="816" y="281" font-family="'Fira Code', monospace" font-size="10" fill="#c9d1d9">C#</text>
+
+  <!-- Right Side Badges -->
+  <rect x="950" y="140" width="100" height="26" rx="13" fill="rgba(0,191,255,0.05)" stroke="rgba(0,191,255,0.2)" stroke-width="1" />
+  <text x="965" y="158" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#58a6ff">🏆 10+ Years</text>
+
+  <rect x="1060" y="140" width="80" height="26" rx="13" fill="rgba(123,66,188,0.05)" stroke="rgba(123,66,188,0.2)" stroke-width="1" />
+  <text x="1075" y="158" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#a371f7">☁️ AWS</text>
+
+  <rect x="950" y="175" width="95" height="26" rx="13" fill="rgba(255,107,0,0.05)" stroke="rgba(255,107,0,0.2)" stroke-width="1" />
+  <text x="965" y="193" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#ff8c42">🛠️ SDK Expert</text>
+
+  <rect x="1055" y="175" width="85" height="26" rx="13" fill="rgba(46,160,67,0.05)" stroke="rgba(46,160,67,0.2)" stroke-width="1" />
+  <text x="1070" y="193" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#3fb950">🤖 AI/ML</text>
+
+  <rect x="950" y="210" width="105" height="26" rx="13" fill="rgba(0,191,255,0.05)" stroke="rgba(0,191,255,0.2)" stroke-width="1" />
+  <text x="965" y="228" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#58a6ff">👨‍💼 Team Lead (22)</text>
+
+  <rect x="1065" y="210" width="95" height="26" rx="13" fill="rgba(123,66,188,0.05)" stroke="rgba(123,66,188,0.2)" stroke-width="1" />
+  <text x="1080" y="228" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#a371f7">📦 5+ SaaS/yr</text>
+
+  <rect x="950" y="245" width="100" height="26" rx="13" fill="rgba(255,107,0,0.05)" stroke="rgba(255,107,0,0.2)" stroke-width="1" />
+  <text x="965" y="263" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#ff8c42">⚡ 99.9% Uptime</text>
+</svg>
